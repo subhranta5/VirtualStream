@@ -73,7 +73,7 @@ def youtube(url: str):
         return None, None
 
 
-@Client.on_message(command(["vplay", f"vplay@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["vstream", f"vstream@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def startvideo(client, m: Message):
     
@@ -86,6 +86,11 @@ async def startvideo(client, m: Message):
                     InlineKeyboardButton(
                         text="🌻 ᴄʜᴀɴɴᴇʟ",
                         url="https://t.me/VirtualMusicChannel")
+                ],
+                [
+                    InlineKeyboardButton(
+                        text="👑 Owner",
+                        url="https://t.me/Bukan_guudlooking")
                 ]
             ]
         )
@@ -215,7 +220,7 @@ async def handler(client: PyTgCalls, update: Update):
     await call_py.leave_group_call(chat_id)
 
 
-@Client.on_message(command(["cplay", f"cplay@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["cstream", f"cstream@{Veez.BOT_USERNAME}"]) & filters.group & ~filters.edited)
 @authorized_users_only
 async def chstream(client, m: Message):
     replied = m.reply_to_message
