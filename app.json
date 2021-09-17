@@ -7,9 +7,9 @@
         "telegram bot",
         "video stream"
     ],
-    "website": "https://t.me/VirtualMusicChannel",
-    "repository": "https://github.com/Tonic990/VirtualStream",
-    "success_url": "https://t.me/Bukan_guudlooking",
+    "website": "https://t.me/english89000",
+    "repository": "https://github.com/Harris7864/VirtualStream",
+    "success_url": "https://t.me/Harris211",
     "env": {
         "API_ID": {
             "description": "your APP_ID from my.telegram.org",
