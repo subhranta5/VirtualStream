@@ -42,7 +42,7 @@ async def start(_, m: Message):
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/VirtualStreambot?startgroup=true")
+                        "➕ Add me to your Group ➕", url=f"https://t.me/vcvideoplayer1bot?startgroup=true")
                 ], [
                     InlineKeyboardButton(
                         "❔ HOW TO USE THIS BOT", callback_data="cbguide")
