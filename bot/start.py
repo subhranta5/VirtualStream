@@ -48,12 +48,12 @@ async def start(_, m: Message):
                         "❔ HOW TO USE THIS BOT", callback_data="cbguide")
                 ], [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/GroupVirtualMusic"),
+                        "💬 Group", url="https://t.me/Harris211"),
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/VirtualMusicChannel")
+                        "📣 Channel", url="https://t.me/english89000")
                 ], [
                     InlineKeyboardButton(
-                        "👩🏻‍💻 Developer", url="https://t.me/Bukan_guudlooking")
+                        "👩🏻‍💻 Developer", url="https://t.me/Harris211")
                 ], [
                     InlineKeyboardButton(
                         "📚 All Command List", callback_data="cblist")
@@ -87,10 +87,10 @@ async def alive(_, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/GroupVirtualMusic"
+                        "✨ Group", url=f"https://t.me/Harris211"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/VirtualMusicChannel"
+                        "📣 Channel", url=f"https://t.me/english89000"
                     )
                 ]
             ]
