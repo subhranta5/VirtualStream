@@ -53,7 +53,7 @@ async def start(_, m: Message):
                         "📣 Channel", url="https://t.me/VirtualMusicChannel")
                 ], [
                     InlineKeyboardButton(
-                        "👩🏻‍💻 Developer", url="https://t.me/Bukan_guudlooking")
+                        "👩🏻‍💻 Developer", url="https://t.me/Harris211")
                 ], [
                     InlineKeyboardButton(
                         "📚 All Command List", callback_data="cblist")
