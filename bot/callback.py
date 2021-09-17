@@ -37,18 +37,18 @@ async def cbstart(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
-                    "➕ Add me to your Group ➕", url=f"https://t.me/VirtualStreambot?startgroup=true")
+                    "➕ Add me to your Group ➕", url=f"https://t.me/vcvideoplayer1bot?startgroup=true")
             ], [
                 InlineKeyboardButton(
                     "❔ HOW TO USE THIS BOT", callback_data="cbguide")
             ], [
                 InlineKeyboardButton(
-                    "💬 Group", url="https://t.me/GroupVirtualMusic"),
+                    "💬 Group", url="https://t.me/englis321"),
                 InlineKeyboardButton(
-                    "📣 Channel", url="https://t.me/VirtualMusicChannel")
+                    "📣 Channel", url="https://t.me/english89000")
             ], [
                 InlineKeyboardButton(
-                    "👩🏻‍💻 Developer", url="https://t.me/Bukan_guudlooking")
+                    "👩🏻‍💻 Developer", url="https://t.me/Harris211")
             ], [
                 InlineKeyboardButton(
                     "📚 All Command List", callback_data="cblist")
