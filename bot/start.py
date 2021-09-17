@@ -38,7 +38,7 @@ async def start(_, m: Message):
     if m.chat.type == "private":
         await m.reply_text(
             f"✨ **Hello there, I am a telegram group video streaming bot.**\n\n💭 **I was created to stream videos in group "
-            f"video chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
+            f"voice chats easily.**\n\n❔ **To find out how to use me, please press the help button below** 👇🏻",
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
@@ -48,12 +48,12 @@ async def start(_, m: Message):
                         "❔ HOW TO USE THIS BOT", callback_data="cbguide")
                 ], [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/GroupVirtualMusic"),
+                        "💬 Group", url="https://t.me/englis321"),
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/VirtualMusicChannel")
+                        "📣 Channel", url="https://t.me/english89000")
                 ], [
                     InlineKeyboardButton(
-                        "👩🏻‍💻 Developer", url="https://t.me/Bukan_guudlooking")
+                        "👩🏻‍💻 Developer", url="https://t.me/Harris211")
                 ], [
                     InlineKeyboardButton(
                         "📚 All Command List", callback_data="cblist")
