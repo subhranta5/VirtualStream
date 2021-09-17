@@ -13,7 +13,7 @@ async def cbguide(_, query: CallbackQuery):
 
 1.) first, add me to your group.
 2.) then promote me as admin and give all permissions except anonymous admin.
-3.) add @AsistenStream to your group.
+3.) add @vcvid to your group.
 4.) turn on the voice chat first before start to stream video.
 5.) type /vstream (reply to video) to start streaming.
 6.) type /vstop to end the video streaming.
